@@ -1,0 +1,130 @@
+.navbar{
+    background-color: #cacccb;
+}
+
+body{
+    background-color: #ededed;
+}
+
+.navigation .navbar-brand{
+    background-color: #38ab87;
+    color: white;
+    font-weight: bold;
+    padding: inherit;
+    margin-left: 50px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.dropdown-item{
+    color: #30615c
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#adc7c4; 
+}
+
+.nav-link:hover{
+    background-color:#adc7c4;
+}
+
+h1{
+    background-color: white;
+    color: #38ab87;
+    padding: 30px;
+}
+
+h2{
+    background-color: white;
+    color: #38ab87;
+    padding: 20px;
+}
+.container{
+    padding: 30px;
+    
+}
+
+.description-content{
+    background-color: white;
+    
+}
+.viso{
+    background-color: white;
+    
+}
+
+#fig1{
+    margin-left: 20px;
+    overflow-wrap: break-word;
+}
+p{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+@media (max-width: 900px){
+    .navbar-expand-lg{
+        background-color: #38ab87;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .navbar-brand{
+        padding: 10px; 
+    }
+    
+    button{
+        margin-left: auto; 
+    }
+    
+    button:focus {
+        outline: 1px dotted;
+    }
+    }
+    
+    .description-content {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        padding: 10px 30px 5px;
+        color: black;
+        background-color: white;
+    }
+    
+    .imageNav-content {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 10px 30px 40px;
+        color: black;
+        background-color: white;
+    }
+    .description-header, .imageNav-header {
+        padding-top: 15px; 
+        padding-left: 4px;
+        color: #38ab87;
+        font-size: 26px;
+        font-weight: bold;
+        font-family: Georgia, Times, "Times New Roman", serif;
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .description-image {
+        float: left;
+        width: 60%;
+        height: 60%;
+    }
+    
+    
+    .active, .imageNav-photo:hover{
+        border-color:#38ab87;
+        border-style: solid; 
+    }
